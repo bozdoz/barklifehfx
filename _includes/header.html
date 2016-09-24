@@ -11,8 +11,12 @@
         href="#"
         rel="home">{{ site.title | escape }}</a>
 
-      <h1>Bark Life</h1>
-      <h2>Halifax Dog Walking</h2>
+      {% if site.title %}
+      <h1>{{ site.title | escape }}</h1>
+      {% endif %}
+      {% if site.subtitle %}
+      <h2>{{ site.subtitle | escape }}</h2>
+      {% endif %}
     </div>
 
     {% if false %}

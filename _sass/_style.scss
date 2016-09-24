@@ -8,19 +8,18 @@ html,
 body {
 	width: 100%;
 	height: 100%;
-	background: $backgroundcolor;
-}
-body {
-	font-size: 14pt;
-	padding-top:325px;
-	padding-top:35vh;
-	padding-bottom:25px;
 	background-image: url(/assets/background.jpg);
 	background-color: $backgroundcolor;
 	background-size: cover;
 	background-position: 50% 0%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+body {	
+	font-size: 14pt;
+	padding-top:325px;
+	padding-top:35vh;
+	padding-bottom:25px;
 }
 
 li {

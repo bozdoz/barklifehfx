@@ -1,0 +1,29 @@
+{
+  "name": "barklife",
+  "version": "0.1.0",
+  "description": "Halifax dog walking website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bozdoz/barklifehfx.git"
+  },
+  "keywords": [
+    "barklife",
+    "halifax",
+    "dog",
+    "website"
+  ],
+  "author": "Benjamin J DeLong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bozdoz/barklifehfx/issues"
+  },
+  "homepage": "https://github.com/bozdoz/barklifehfx#readme",
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "gulp": "^3.9.1"
+  }
+}

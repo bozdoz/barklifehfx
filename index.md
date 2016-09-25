@@ -10,3 +10,5 @@ Bark Life is…
 - Experienced
 - Pet First Aid certified
 - Any-weather ready
+
+If your dog has more energy than you have time, contact Bark Life!

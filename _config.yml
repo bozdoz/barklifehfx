@@ -9,6 +9,8 @@ description: >
 ### Probably shouldn't edit the settings below
 ###
 
+google_analytics: UA-73887811-7
+
 baseurl: ""
 url: ""
 
@@ -16,9 +18,9 @@ defaults:
   -
     scope:
       path: ""
-      type: "pages"
+      type: pages
     values:
-      layout: "default"
+      layout: default
 
 markdown: kramdown
 #theme: minima
@@ -28,3 +30,4 @@ exclude: [
   'package.json',
   'node_modules'
   ]
+

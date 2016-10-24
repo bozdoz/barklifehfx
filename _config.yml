@@ -1,7 +1,6 @@
 title: Bark Life
 subtitle: Halifax Dog Walking
 email: barklifehfx@gmail.com
-<<<<<<< HEAD
 phone: 1-902-292-3647
 description: >
   Halifax dog walking opportunities.
@@ -31,4 +30,3 @@ exclude: [
   'package.json',
   'node_modules'
   ]
-

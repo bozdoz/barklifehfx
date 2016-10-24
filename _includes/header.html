@@ -6,16 +6,14 @@
     {% assign full_base_url = site.github.url | default: custom_url %}
 
     <div class="site-brand">
-      <a 
-        class="site-title site-logo" 
-        href="#"
-        rel="home">{{ site.title | escape }}</a>
-
-      {% if site.title %}
-      <h1>{{ site.title | escape }}</h1>
-      {% endif %}
-      {% if site.subtitle %}
-      <h2>{{ site.subtitle | escape }}</h2>
+      <span class="site-title site-logo">{{ site.title | escape }}</span>
+      {% if false %}
+        {% if site.title %}
+        <h1>{{ site.title | escape }}</h1>
+        {% endif %}
+        {% if site.subtitle %}
+        <h2>{{ site.subtitle | escape }}</h2>
+        {% endif %}
       {% endif %}
     </div>
 

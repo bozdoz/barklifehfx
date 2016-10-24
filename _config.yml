@@ -1,8 +1,8 @@
 title: Bark Life
 subtitle: Halifax Dog Walking
 email: barklifehfx@gmail.com
-phone: 1-902-888-8888
-description: > # this means to ignore newlines until "baseurl:"
+phone: 1-902-292-3647
+description: > # this means to ignore newlines
   Halifax dog walking opportunities.
 
 ###
@@ -11,6 +11,17 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: ""
 url: ""
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+google_maps_api : AIzaSyCC5RojknjT5x7CyLpO-OV33UrF-6nKtao
+google_analytics : UA-73887811-7
+google_fonts : Neucha|Poppins:300
 
 markdown: kramdown
 #theme: minima

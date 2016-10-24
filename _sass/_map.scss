@@ -1,0 +1,11 @@
+#map {
+	height:250px;
+	height:33vh;
+	margin-bottom:$spacing-unit;
+}
+
+@include media-query($on-laptop) {
+	#map {
+		margin-bottom: 0;
+	}
+}

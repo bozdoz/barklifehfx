@@ -1,21 +1,13 @@
-<footer class="site-footer">
+<footer class="site-footer container">
 
-  <div class="wrapper">
+  <div class="row">
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-      </div>
-      <div class="footer-col footer-col-2">
-      </div>
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
+    <div class="col-xs-12 col-sm-7 col-sm-push-5">
+      <ul class="list-unstyled">
+        <li>{{ site.title | escape }}</li>
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <li>{{ site.description | escape }}</li>
+      </ul>
     </div>
 
   </div>

@@ -5,15 +5,36 @@
 
   <body>
 
-    {% include header.html %}
+    <div id="page">
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+      <div id="map"></div>
+
+      <div class="container">
+      <div class="row">
+      <div class="col-sm-12 col-md-5">
+
+      {% include header.html %}
+
       </div>
-    </main>
+      <div class="col-sm-12 col-md-7">
+      
+      <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </main>
 
-    {% include footer.html %}
+      </div>
+      </div>
+      </div>
+
+      {% include footer.html leaflet=true %}
+      
+    </div>
+
+     <script src="/js/script.js"></script>
+     <script src="https://maps.googleapis.com/maps/api/js?key={{site.google_maps_api}}&callback=initMap"
+    async defer></script>
 
   </body>
 

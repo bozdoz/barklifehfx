@@ -11,7 +11,7 @@ gulp.task('default', function() {
                 './_site/jekyll/*',
             ]
         },
-        online : false,
+        online : true,
         notify : false,
         ui : false,
         files : [

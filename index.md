@@ -9,3 +9,5 @@ A happy, healthy dog is an active dog - and Bark Life can help your Hali-pup get
 - Experienced
 - Pet First Aid certified
 - Any-weather ready
+
+If your dog has more energy than you have time, contact Bark Life!

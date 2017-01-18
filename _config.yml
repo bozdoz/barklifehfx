@@ -9,7 +9,7 @@ description: >
 ### Probably shouldn't edit the settings below
 ###
 
-baseurl: ""
+baseurl: "https://bozdoz.github.io/barklifehfx/"
 url: ""
 
 defaults:
